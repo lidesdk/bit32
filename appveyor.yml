@@ -39,7 +39,7 @@ build_script:
   - set PATH=%LIDE_PATH%;
 
 test_script:
-- cd c:\projects\zipwriter
+- cd c:\projects\bit32
 - lide install bit32 5.2.2
   
   # Simulate lide's package.path and package.cpath on default lua5.1 interpreter
